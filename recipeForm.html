@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit page</title>
+    <link rel="stylesheet" href="recipeForm.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="main">
+        <div class="my-3 text-center " >
+            <h1 class="display-5 fw-bold">Submit your Recipe</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead">Share your amazing recipes</p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center ">
+            <div class="col-8"></div>
+                <form action="/submitrecipe" method="post">
+                    <div class="row g-3">
+                        <div class="col-12">
+                            <label for="user_email" class="form-label">Email</label>
+                            <input type="emial" name="email" placeholder="@gmail" class="form-control">
+                        </div>
+
+                        <div class="col-12">
+                            <label for="recipename" class="form-label">Recipe Name </label>
+                            <input type="text" name="recipe_name"  class="form-control">
+                        </div>
+
+                        <div class="col-12">
+                            <label for="description" class="form-label">Description</label>
+                            <textarea name="description" cols="30" class="form-control" rows="4"></textarea>
+                        </div>
+
+                        <div class="col-12">
+                            <label for="ingridients" class="form-label">Ingridients</label>
+                            <input type="text" name="ingridients">
+                        </div>
+
+                        <div class="col-12">
+                            <label for="category">Category</label>
+                            <select name="category" class="form-select form-control" aria-label="Category">
+                                <option selected>Select Category</option>
+                                <option value="Thai">Thai</option>
+                                <option value="American">American</option>
+                                <option value="Indian">Indian</option>
+                                <option value="Chinese">Chinese</option>
+                                <option value="Mexican">Mexican</option>
+                            </select>
+                        </div>
+
+                        <div class="col-12">
+                            <label for="image">Product Image</label>
+                            <input type="file" class="form-control" name="image" accept="image/*" >
+                        </div>
+
+                        <div class="col-12">
+                            <button class="btn btn-primary">Submit Recipe</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

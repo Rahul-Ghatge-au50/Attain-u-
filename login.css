@@ -1,0 +1,20 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("photo-login.avif");
+}
+#box{
+    margin-top: 3%;
+    width: 350px;
+    height: 400px;
+    background-color: #fff;
+    border: solid black 1px;
+    border-radius: 2%;
+    padding: 2%;
+
+}
+p{
+    text-align: center;
+}
