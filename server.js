@@ -176,9 +176,9 @@ app.post('/submitrecipe', async (req,res) => {
     }
 })
 
-app.get('/',(req,res) => {
-    res.send('Hello Welcome to Food Recipe Blog')
-})
+// app.get('/',(req,res) => {
+//     res.send('Hello Welcome to Food Recipe Blog')
+// })
 
 
 
