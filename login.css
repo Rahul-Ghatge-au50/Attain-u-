@@ -5,11 +5,14 @@ body{
     align-items: center;
     background-image: url("photo-login.avif");
 }
+h1{
+    text-align: center;
+}
 #box{
     margin-top: 3%;
     width: 350px;
     height: 400px;
-    background-color: #fff;
+    background-color: whitesmoke;
     border: solid black 1px;
     border-radius: 2%;
     padding: 2%;

@@ -1,0 +1,17 @@
+#box{
+    height: 800px;
+    width: 600px;
+    margin: auto;
+    background-image:url() ;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    
+}
+#head{
+    text-align: center;
+    padding-top: 10px;
+    background-color: whitesmoke;
+    height: 110px;
+    border-radius: 5px;
+}

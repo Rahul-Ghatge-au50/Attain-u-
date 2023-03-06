@@ -4,18 +4,24 @@ body{
     justify-content: center;
     align-items: center;
     background-image: url("photo-login.avif");
-    
+
     
 
+}
+
+h1{
+
+    text-align: center;
+    
 }
 
 #box{
     margin-top: 3%;
     width: 350px;
     height: 680px;
-    background-color: #fff;
+    background-color: whitesmoke;
     border: solid black 1px;
-    border-radius: 2%;
+    border-radius: 10px;
     padding: 2%;
 
 }
@@ -24,6 +30,5 @@ body{
     width: 100%;
 }
 #lg{
-    display: flex;
-    justify-content: center; 
+    text-align: center;
 }
